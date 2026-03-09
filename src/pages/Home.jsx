@@ -56,7 +56,7 @@ function Home() {
 
   return (
     <div
-      className={`h-screen w-full ${darkMode ? "bg-[hsl(209,26%,17%)]" : "bg-[hsl(0,0%,100%)]"} `}
+      className={`min-h-screen w-full ${darkMode ? "bg-[hsl(209,26%,17%)]" : "bg-[hsl(0,0%,100%)]"} `}
     >
       <PompHeader
         title="Where in the world?"
@@ -66,14 +66,14 @@ function Home() {
       <div className="w-full p-4 md:p-12 flex flex-col">
         <div className="input  w-full flex flex-col md:flex-row md:justify-between">
           <input
-            className={`p-2 h-[50px] mb-4 rounded text-[12px] md:text-[16px] w-full md:w-[40%] ${darkMode ? "text-[hsl(0,100%,100%)] shadow bg-[hsl(209,23%,22%)] placeholder:text-[hsl(0,100%,100%)]" : "text-[hsl(200,15%,8)] shadow bg-[hsl(0,0%,100%)] placeholder:text-[hsl(200,15%,8)]"}`}
+            className={`p-2 h-12 mb-4 rounded text-[12px] md:text-[16px] w-full md:w-[40%] ${darkMode ? "text-[hsl(0,100%,100%)] shadow bg-[hsl(209,23%,22%)] placeholder:text-[hsl(0,100%,100%)]" : "text-[hsl(200,15%,8)] shadow bg-[hsl(0,0%,100%)] placeholder:text-[hsl(200,15%,8)]"}`}
             type="text"
             placeholder="Search for a country..."
             value={searchTerm}
             onChange={handleSearch}
           />
           <select
-            className={`pl-2 pr-2 w-[40%] text-[12px] md:text-[16px] md:w-[20%] h-[50px] rounded ${darkMode ? "text-[hsl(0,100%,100%)] shadow bg-[hsl(209,23%,22%)]" : "text-[hsl(200,15%,8)] shadow bg-[hsl(0,0%,100%)]"}`}
+            className={`pl-2 pr-2 w-[40%] text-[12px] md:text-[16px] md:w-[20%] h-12 rounded ${darkMode ? "text-[hsl(0,100%,100%)] shadow bg-[hsl(209,23%,22%)]" : "text-[hsl(200,15%,8)] shadow bg-[hsl(0,0%,100%)]"}`}
             name="filtro"
             id="filtro"
             onChange={handleRegionChange}

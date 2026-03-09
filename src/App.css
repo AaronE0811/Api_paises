@@ -1,13 +1,16 @@
+/* Cambia esto en tu archivo de estilos */
 @import "tailwindcss";
 
 html,
 body {
-  height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 #root {
-  height: 100%;
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
