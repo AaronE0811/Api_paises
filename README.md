@@ -1,16 +1,17 @@
-# React + Vite
+# 🌍 REST Countries API with Color Theme Switching
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una solución al reto de [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switching-5c375393e111c59271033f00). Una aplicación interactiva que permite explorar datos de países de todo el mundo.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Visualización de Países:** Lista completa de países obtenida desde la API de REST Countries.
+- **Búsqueda Avanzada:** Filtrado dinámico por nombre y región.
+- **Detalle Expandido:** Modal detallado con bandera a gran escala y datos específicos (moneda, idiomas, dominios).
+- **Modo Oscuro/Claro:** Implementación completa de temas con `hsl` y Tailwind CSS.
+- **Diseño Responsive:** Adaptado para móviles, tablets y escritorio.
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React** (Vite.js)
+* **Tailwind CSS** (Estilizado y Layout)
+* **REST Countries API** (Fuente de datos)
